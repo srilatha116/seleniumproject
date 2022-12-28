@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Check for Sunpharma System">
+
+	<listeners>
+		<listener
+			class-name="com.qa.extentreportlistener.ExtentReportListener" />
+	</listeners>
+
+
+	<test name="Sanity Check">
+		<classes>
+			<class
+				name="com.medhas.sanity.TestUserAccessReview" />
+				
+				
+				
+			
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
